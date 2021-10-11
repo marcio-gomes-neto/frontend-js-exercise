@@ -1,0 +1,90 @@
+a:link, a:visited, #barWithoutSite {
+    background-color: #fff;
+    color: black;
+
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 2%;
+    
+    height: 15%;
+    width:  30%;
+
+    line-break:strict;
+
+    border-radius: 3px;
+    transition: 0.5s;
+  }
+
+  #barWithoutSite{
+      border-color: lightgray;
+  }
+  a:hover, a:active{
+    background-color: black;
+    color: white;
+  }
+
+  #buttonShowMoreBars{
+        display: none;
+        margin:0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+  }
+  
+#buttonShowBars{
+    margin:0 auto;
+    display:block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#selectHolder{
+    
+    display:block;
+    margin-left: 20%;
+    font-size: 30px;
+}
+#beerBarCountry, #beerBarCity, #beerBarCategory{
+    font-size: 25px;
+}
+
+#label{
+    display:block;
+    margin-top: 10px
+}
+
+#beerBarContainer{
+    margin-top: 20px;
+    margin-left: 3%;
+}
+
+#barInfo{
+    font-size: 15px;
+}
+
+#beerWithDesc:hover{
+    height: 350px;
+}
+
+@media only screen and (max-width: 1300px) {
+    a:link, a:visited, #barWithoutSite {
+    width: 30%;
+    height: 250px;
+    display:inline-block;
+    }
+  }
+
+  span::first-line,a::first-line{
+    font-weight:bold;
+   }
+   
+   h1{
+    text-align:center
+   }

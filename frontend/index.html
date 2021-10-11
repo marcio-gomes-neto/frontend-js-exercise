@@ -1,0 +1,35 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> BEERS FROM THE WORLD</h1>
+    <div id="selectHolder">
+        <label for="beerBarCountry" id="label">Select a Country:</label>
+        <select id="beerBarCountry" class="form-select w-75">
+            <option selected>none</option>
+        </select>
+       
+        <label for="beerBarCity" id="label">Select a City:</label>
+            <select id="beerBarCity" class="form-select w-75" disabled>
+                <option selected>none</option>
+            </select>
+        
+        <label for="beerBarCategory" id="label">Select a Category:</label>
+            <select id="beerBarCategory" class="form-select w-75">
+            </select>
+    </div>
+    
+    <button type="button" id="buttonShowBars" class= "btn btn-outline-dark justify-content">Show Me The Beers!</button>
+    <div id="beerBarContainer" ></div>
+
+    <button type="button" id="buttonShowMoreBars" class="btn btn-outline-dark">Show More Beers!</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
